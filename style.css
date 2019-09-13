@@ -1,0 +1,41 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+ }
+
+ body, article {
+  margin: 10px;
+  padding: 10px;
+  background-color: gray;
+ }
+
+ header, nav, section, h1, p, aside, footer {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+ }
+
+ section, aside {
+    display: block;
+    height: 275px;
+ }
+
+ section {
+    width: 50%;
+    float: left;
+ }
+
+ aside {
+    width: 40%;
+    float: right;
+ }
+ 
+ .clear {
+    clear: both;
+ }
+ 
